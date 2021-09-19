@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(.././images/map-of-the-world.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+.card {
+  width: 480px;
+}
+.head-box {
+  text-align: center;
+}
+.head {
+  font-weight: bold;
+}
+.capital {
+  font-weight: bold;
+  font-size: 25px;
+}
+.population {
+  font-weight: bold;
+  font-size: 25px;
+}
+.lang {
+  font-weight: bold;
+  font-size: 25px;
+}
+.textSpan {
+  font-weight: normal;
+  font-size: 20px;
+}
+img {
+  margin-left: 15px;
+}
+.list {
+  padding-left: 20px;
+}
