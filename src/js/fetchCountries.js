@@ -7,7 +7,7 @@ export default class OnSearch {
     }
 
     searchCountries() {
-        const url = `https://restcountries.eu/rest/v2/name/${this.search}`;
+        const url = `https://restcountries.com/v2/name/${this.search}`;
         return fetch(url).then(response => {
             if (response.ok) return response.json();
             throw new Error(response.statusText);

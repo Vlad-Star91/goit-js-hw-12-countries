@@ -14,7 +14,7 @@
             </ul>
             </p>
         </div>
-        <img src="{{flag}}" alt="{{name}} width=" 200" height="200"">
+        <img {{#each flags}} src="{{this}}" {{/each}} alt="{{name}} width=" 200" height="200"">
 
     </div>
 </div>
